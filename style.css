@@ -565,6 +565,31 @@ footer {
   font-size: 0.9rem;
 }
 
+/* Floating Call Button */
+.floating-call-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--gradient);
+  color: #000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.floating-call-btn:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(212, 175, 55, 0.4);
+}
+
 /* Animations / Reveals */
 .reveal {
   opacity: 0;
